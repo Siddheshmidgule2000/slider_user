@@ -1,0 +1,30 @@
+
+.card{
+    width: 100%;
+  
+    display: flex;
+    align-items: center;
+    
+justify-content: center;}
+.buttons{
+    background-color: grey;
+    display: flex;
+    width: 100%;
+    overflow: scroll;
+    margin-top: 20px;
+    border: 1px solid black;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+    button{
+        height: 40px;
+        width: 40px;
+        color: white;
+        font-weight: bold;
+        margin: 10px;
+        border: 1px solid black;
+        background: violet;
+        border-radius: 5px;
+
+    }
+}
