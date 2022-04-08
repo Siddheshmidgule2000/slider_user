@@ -54,7 +54,8 @@ const Home = () => {
       </h1>
   </Card>}
   </div>}
-  <div className='buttons'>
+  <div className='buttons' style={{justifyContent:"center",alignItems:"center"}}>
+    
     {userlist.map((item,index)=> <button onClick={()=>{getUser(item.id)}}>{item.id}</button>)}
    
   </div>
